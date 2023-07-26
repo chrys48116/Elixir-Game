@@ -30,7 +30,7 @@ defmodule ExMon.Game do
 
   defp update_game_status(state) do
     state
-    |> Map.put(:status, :continur)
+    |> Map.put(:status, :continue)
     |> update_turn()
   end
 
